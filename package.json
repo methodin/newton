@@ -1,0 +1,42 @@
+{
+  "name": "newton-event",
+  "version": "1.0.6",
+  "description": "Lightweight event-based library for frontend/backend",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/methodin/newton.git"
+  },
+  "author": "Derek Woods",
+  "license": "GPL",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.0.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-babel": "^4.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^6.3.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "prettier": "^2.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/methodin/newton/issues"
+  },
+  "homepage": "https://github.com/methodin/newton#readme"
+}
